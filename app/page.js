@@ -13,6 +13,9 @@ import help from '../public/help.png'
 import chart from '../public/chart.png'
 import twitter from '../public/Twitter.png'
 import instagram from '../public/Instagram.png'
+import ceo from "../public/Ellipse1.png"
+import cto from "../public/Ellipse2.png"
+import proj from "../public/Ellipse3.png"
 import React from 'react'
 import lottie from 'lottie-web'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
@@ -241,7 +244,14 @@ export default function Home() {
 <div className='flex flex-row justify-around space-x-[-200px] sm:space-x-0 sm:flex-col sm:space-y-4 sm:items-center sm:justify-center '>
    <div className='w-[395px] bg-white h-[307px] flex flex-col justify-around items-center  rounded-[8px] shadow sm:w-[390px] '>
        <div className='w-[120px] h-[120px] rounded-full bg-[#D9D9D9] mt-10'>
-         
+         <Image 
+            src={ceo}
+            alt='cyber'
+            width="120"
+            height="120"
+            priority
+            
+            />
        </div>
        <div className='flex flex-col items-center '>
        <h2 className='pt-2'>Dhikrullah Adekunle</h2>
@@ -275,7 +285,14 @@ export default function Home() {
    
    <div className='w-[395px] bg-white h-[307px] flex flex-col justify-around items-center   rounded-[8px] shadow sm:w-[350px]'>
      <div className='w-[120px] h-[120px] rounded-full bg-[#D9D9D9] mt-10'>
-         
+          <Image 
+            src={cto}
+            alt='cyber'
+            width="120"
+            height="120"
+            priority
+            
+            />
        </div>
        <div className='flex flex-col items-center '>
        <h2 className='pt-2'>Ayobami Daniel</h2>
@@ -307,10 +324,17 @@ export default function Home() {
    </div>
    <div className='w-[395px] bg-white h-[307px] flex flex-col justify-around items-center  rounded-[8px] shadow sm:w-[350px]'>
      <div className='w-[120px] h-[120px] rounded-full bg-[#D9D9D9] mt-10'>
-         
+          <Image 
+            src={proj}
+            alt='cyber'
+            width="120"
+            height="120"
+            priority
+            
+            />
        </div>
        <div className='flex flex-col items-center '>
-       <h2 className='pt-2'>Roqeeb</h2>
+       <h2 className='pt-2'>Rokeeb Abdul</h2>
        <p className=''>Product Designer</p>
        </div>
        <div className='flex justify-around space-x-[-70px]'>

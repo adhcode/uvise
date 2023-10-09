@@ -21,7 +21,7 @@ const Navbar = () => {
   }
   
   return (
-    <nav className='fixed w-full bg-purple h-[80px] max-w-[1440px] lg:max-w-[976px] sm:max-w-[480px] flex justify-between  items-center mx-auto pr-[150px] pl-[120px] sm:pl-[35px] sm:pr-[80px]'>
+    <nav className='fixed w-full bg-purple h-[80px] max-w-[1440px] lg:max-w-[976px] sm:max-w-[480px] flex justify-between  items-center mx-auto pr-[150px] pl-[120px] sm:pl-[35px] sm:pr-[80px] z-50'>
       {/*logo*/}
       <div className='sm:w-[120px] w-[180px]'>
            <Link href="/">
