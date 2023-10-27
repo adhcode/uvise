@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { Nunito } from 'next/font/google'
 import { Inter } from 'next/font/google'
+import Image from 'next/image'
 
 import dataloss from '../../public/custre.png'
 import cybsec from '../../public/bouncc.png'
@@ -16,9 +16,9 @@ import ceo from "../../public/Ellipse1.png"
 import cto from "../../public/Ellipse2.png"
 import proj from "../../public/Ellipse3.png"
 import dat from "../../public/Ellipse4.png"
-import doy from "../../public/doyi.png"
-import sam from "../../public/sam.png"
-import white from "../../public/white.png"
+import doy from "../../public/Ellipse5.png"
+import sam from "../../public/Ellipse6.png"
+import white from "../../public/Ellipse7.png"
 
 
 import abt1 from '../../public/about1.png'
