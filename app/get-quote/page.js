@@ -59,9 +59,9 @@ const quoteAni = createRef();
            <div className='flex flex-row w-[1232px] mt-[40px] sm:flex-col  sm:w-[350px] sm:h-[1265px]  sm:justify-center sm:items-center'>
         <div className=' ml-[250px] '>
           <div className='w-[616px] space-y-4  '>
-            <div className='w-[395px] h-[196px] bg-[#9747FF33] bg-opacity-20 rounded-[8px]'>
+            <div className='w-[395px] sm:w-[320px] h-[196px] bg-[#9747FF33] bg-opacity-20 rounded-[8px]'>
                <div className='pt-[32px] pb-[32px] pl-[24px] pr-[224px] space-y-2 sm:pr-0 '>
-                <p className='text-[16px] text-[600] text-[#2A2A2A]'>Call Us</p>
+                <p className='text-[16px] sm:text-[14px] text-[600] text-[#2A2A2A]'>Call Us</p>
                 <Image 
             src={grp9}
             alt='data'
@@ -69,14 +69,14 @@ const quoteAni = createRef();
             height="64"
             priority="100"
             />
-            <p className='text-[16px] text-[600] text-[#2A2A2A]'> +234 000 000 0000</p>
+            <p className='text-[16px] sm:text-[14px] text-[600] text-[#2A2A2A]'> +234 000 000 0000</p>
             </div>
 
                </div>
                
-               <div className='w-[395px] h-[196px] bg-[#ECE53D] bg-opacity-20 rounded-[8px]'>
+               <div className='w-[395px] sm:w-[320px] h-[196px] bg-[#ECE53D] bg-opacity-20 rounded-[8px]'>
                <div className='pt-[32px] pb-[32px] pl-[24px] pr-[224px] space-y-2'>
-                <p className='text-[16px] text-[600] text-[#2A2A2A]'>Email Us</p>
+                <p className='text-[16px] sm:text-[14px] text-[600] text-[#2A2A2A]'>Email Us</p>
                 <Image 
             src={grp10}
             alt='data'
@@ -84,13 +84,13 @@ const quoteAni = createRef();
             height="64"
             priority
             />
-            <p className='text-[16px] text-[600] text-[#2A2A2A]'> contact@uvise.com</p>
+            <p className='text-[16px] sm:text-[14px] text-[600] text-[#2A2A2A]'> contact@uvise.com</p>
             </div>
 
                </div>
-               <div className='w-[395px] h-[196px] bg-[#0443E2] bg-opacity-20 rounded-[8px]'>
+               <div className='w-[395px] sm:w-[320px] h-[196px] bg-[#0443E2] bg-opacity-20 rounded-[8px]'>
                <div className='pt-[32px] pb-[32px] pl-[24px] pr-[224px] space-y-2'>
-                <p className='text-[16px] text-[600] text-[#2A2A2A]'>Uvise 24/7 Support</p>
+                <p className='text-[16px] sm:w-[200px] sm:text-[14px] text-[600] text-[#2A2A2A]'>Uvise 24/7 Support</p>
                 <Image 
             src={grp11}
             alt='data'
@@ -98,7 +98,7 @@ const quoteAni = createRef();
             height="64"
             priority
             />
-            <p className='text-[16px] text-[600] text-[#2A2A2A]'> +234 000 000 0000</p>
+            <p className='text-[16px] sm:text-[14px] sm:w-[200px] text-[600] text-[#2A2A2A]'> Start a Conversation</p>
             </div>
 
                </div>

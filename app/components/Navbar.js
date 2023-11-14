@@ -21,7 +21,7 @@ const Navbar = () => {
   }
   
   return (
-    <nav className='fixed w-full bg-purple h-[80px] max-w-[1440px] lg:max-w-[976px] sm:max-w-[480px] flex justify-between  items-center mx-auto pr-[150px] pl-[120px] sm:pl-[35px] sm:pr-[80px] z-50'>
+    <nav className='fixed  sm:fixed w-full bg-purple h-[80px] max-w-[1440px] lg:max-w-[976px] sm:max-w-[390px] flex justify-between  items-center mx-auto pr-[150px] pl-[120px] sm:pl-[35px] sm:pr-[30px] z-50'>
       {/*logo*/}
       <div className='sm:w-[120px] w-[180px]'>
            <Link href="/">
@@ -53,7 +53,7 @@ const Navbar = () => {
                  </div>
              
               <div className={inter.className}>
-             <button className="  bg-blue text-white hover:bg-purple hover:text-blue hover:border-blue border-[1px] w-[134px]  h-[41px] font-[600] text-[14px] rounded-[8px]  border-white-500  
+             <button className="  bg-blue text-white hover:bg-purple hover:text-blue hover:border-blue border-[1px] w-[134px] h-[41px] font-[600] text-[14px] rounded-[8px]  border-white-500  
                "><Link href='/get-quote'>
             Get Quote</Link></button>
                </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
            
            {/*mobile*/}
            <div className='sm:block xl:hidden z-50 text-blue' onClick={changeNav}>
-            {nav ? <div className='border rounded-full absolute top-8 left-[300px] ease-in-out duration-200'> <AiOutlineClose size={20}/></div> : <div className='sm:pl-0'> <AiOutlineMenu size={20}/></div> }
+            {nav ? <div className='border rounded-full absolute top-8 left-[300px] ease-in-out duration-200'> <AiOutlineClose size={22}/></div> : <div className='sm:pl-0'> <AiOutlineMenu size={22}/></div> }
            </div>
             <div className= {nav ? 'sm:block absolute top-0 left-0 flex justify-center items-center w-[338px] h-[400px] bg-white text-left ease-in duration-300 xl:hidden z-20' : 'sm:block absolute top-0 left-[-100%] flex justify-center items-center w-[338px] h-[400px] bg-white text-left ease-in duration-300 xl:hidden z-20 '}>
               {/*nav-link*/}

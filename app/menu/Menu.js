@@ -3,60 +3,22 @@ import React from 'react'
 
 const Menu = () => {
   return (
-    <div className='max-w-[500px] ml-[70px] '>
+    <div className='max-w-[500px] ml-[70px] sm:ml-[15px] '>
       <div className='mb-0 mt-6'>
       
       <h1 className='text-[28px] pb-10 font-[600]'>Our Products</h1>
       </div>
       <div className='mb-8'>
         <Link href='/' className='border bg-[#ECE53D]  pl-4 pr-4 rounded-lg text-[12px] mb-2 font-[600] text-[#2A2A2A] border-none '>Products</Link>
-        <p className='w-[300px] mt-2 text-[14px] font-[600]'>Shop new collection of gym and sport wears on UNUSED</p>
+        <p className='w-[300px] mt-2 text-[14px] font-[600]'>Stay updated on our latest products</p>
         <div className="mb-4 flex space-x-2 text-[10px] text-[#666]">
                 <span className="">11.02.2023</span>
                 <span>UNUSED</span>
             </div>
       </div>
-      <div className='mb-8'>
-        <Link href='/' className='border bg-[#ECE53D]   text-[#2A2A2A] pl-4 pr-4 rounded-lg text-[12px] mb-2 font-[600] border-none '>Products</Link>
-        <p className='w-[300px] mt-2 text-[14px] font-[600]'>Shop new collection of gym and sport wears on UNUSED</p>
-        <div className="mb-4 flex space-x-2 text-[10px] text-[#666]">
-                <span className="">11.02.2023</span>
-                <span>UNUSED</span>
-            </div>
-      </div>
-      <div className='mb-8'>
-        <Link href='/' className='border bg-[#ECE53D]  text-[#2A2A2A] pl-4 pr-4 rounded-lg text-[12px] mb-2 font-[600] border-none '>Products</Link>
-        <p className='w-[300px] mt-2 text-[14px] font-[600]'>Shop new collection of gym and sport wears on UNUSED</p>
-        <div className="mb-4 flex space-x-2 text-[10px] text-[#666]">
-                <span className="">11.02.2023</span>
-                <span>UNUSED</span>
-            </div>
-      </div>
-      <div className='mb-8'>
-        <Link href='/' className='border bg-[#ECE53D]   text-[#2A2A2A] pl-4 pr-4 rounded-lg text-[12px] mb-2 font-[600] border-none '>Products</Link>
-        <p className='w-[300px] mt-2 text-[14px] font-[600]'>Shop new collection of gym and sport wears on UNUSED</p>
-        <div className="mb-4 flex space-x-2 text-[10px] text-[#666]">
-                <span className="">11.02.2023</span>
-                <span>UNUSED</span>
-            </div>
-      </div>
-      <div className='mb-8'>
-        <Link href='/' className='border bg-[#ECE53D]  text-[#2A2A2A] pl-4 pr-4 rounded-lg text-[12px] mb-2 font-[600] border-none '>Products</Link>
-        <p className='w-[300px] mt-2 text-[14px] font-[600]'>Shop new collection of gym and sport wears on UNUSED</p>
-        <div className="mb-4 flex space-x-2 text-[10px] text-[#666]">
-                <span className="">11.02.2023</span>
-                <span>UNUSED</span>
-            </div>
-      </div>
-      <div>
-        <Link href='/' className='border bg-[#ECE53D]  text-[#2A2A2A] pl-4 pr-4 rounded-lg text-[12px] mb-2 font-[600] border-none '>Products</Link>
-        <p className='w-[300px] mt-2 text-[14px] font-[600]'>Shop new collection of gym and sport wears on UNUSED</p>
-        <div className="mb-4 flex space-x-2 text-[10px] text-[#666] ">
-                <span className="">11.02.2023</span>
-                <span>UNUSED</span>
-            </div>
-      </div>
-      <div className='flex  flex-col gap-4 mt-12'>
+      
+      
+      <div className='flex  flex-col gap-4 mt-12 sm:mb-4'>
         <div className='flex space-x-8'>
           <Link href={`/blog`}  className=' bg-[#ECE53D] bg-opacity-20  flex items-center justify-center  rounded-[3px] text-[14px] h-[40px] w-[80px] '>
          
