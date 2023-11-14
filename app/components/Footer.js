@@ -15,7 +15,7 @@ const Footer = () => {
      <footer className=''>
      
       
-          <div className="text-center bg-blue  max-w-[1440px] h-[525px] sm:w-[480px] md:max-w-[769px] sm:h-[269px] sm:pr-14 " >
+          <div className="text-center bg-blue  max-w-[1440px] h-[525px] sm:w-[390px] md:max-w-[769px] sm:h-[269px] sm:pr-0 " >
              <div class=" items-center flex flex-col space-y-[-220px] ">
 
 <div class="w-[782px] h-[391px] rounded-bl-full rounded-br-full bg-[#1857F6] items-center  sm:w-[391px] sm:h-[195.5px]">
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
           </div>
           </div>
-          <div className="mt-20 flex justify-between px-10  bg-purple text-black items-center sm:flex-col sm:items-start sm:ml-[-30px] sm:pt-2">
+          <div className="mt-20 flex justify-between   bg-purple text-black items-center sm:flex-col sm:items-start sm:pl-6 sm:pr-4 sm:w-[390px] sm:pt-2">
             <Link href="/">
            <Image 
             src={logo}
@@ -81,10 +81,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <hr className='w-full h-px  border-0 bg-[#66666666] bg-opacity-50'></hr>
-          <div className='bg-purple text-black flex justify-end items-center pt-5 pb-10 sm:flex-col sm:pt-[-200px] sm:items-start'>
+          <hr className='w-full sm:w-[390px] h-px  border-0 bg-[#66666666] bg-opacity-50'></hr>
+          <div className='bg-purple text-black sm:w-[390px] flex justify-end items-center pt-5 pb-10 sm:flex-col sm:pt-[-200px] sm:items-start'>
                  
-             <div className='flex space-x-3 pr-10 sm:ml-[150px] sm:mb-5 sm:mt-5 '>
+             <div className='flex space-x-3 sm:ml-[150px] sm:w-[390px] sm:mb-5 sm:mt-5 '>
 
         <a href='https://msng.link/o?adekunledh=ig'>
          <Image 
@@ -107,8 +107,8 @@ const Footer = () => {
             />
             </a>
             </div>
-            <div className=''>
-            <p className='text-[14px] font-[600]  pt-3 pb-3 pr-[500px] text-[#2A2A2A] sm:pr-0 sm:ml-2'>&copy; 2023 Uvise. All rights reserved</p>
+            <div className='sm:pr-10 sm:ml-[70px]  '>
+            <p className='text-[14px] font-[600] pt-3 pb-3 pr-[500px] text-[#2A2A2A] sm:pr-0 sm:ml-2  '>&copy; 2023 Uvise. All rights reserved</p>
 </div>       
           </div>
         
