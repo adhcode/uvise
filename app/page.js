@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <main className="">
       <div className={nunito.className}>
-      <div className=' bg-[#FFF] w-full flex justify-between items-center mx-auto lg:px-0  pt-32 sm:pt-24 pb-32  max-w-6xl sm:m-0 sm:flex-col'>
+      <div className=' bg-[#FFF] w-full flex justify-between items-center mx-auto lg:px-0  pt-32 sm:pt-24 pb-32  max-w-6xl sm:m-0 sm:flex-col mr-[155px] sm:mr-0'>
           <div className='h-auto'>
         <h2 className=" text-[#2A2A2A] text-[48px] font-[600]  leading-normal w-[435px] sm:w-[288px] sm:text-[32px] sm:h-[176px] sm:mb-2 overflow-x-visible">Unleashing <br/> <span className='text-blue inline'>Business</span> <span className='inline-flex'>Potential:</span>Your Tech <span className='text-blue inline'>Solutions</span> Architect! </h2>
         <p className='text-[24px] font-[400]  leading-normal text-[#666666] w-[527px] sm:w-[342px] sm:text-[15px] sm:mt-4 sm:mb-4'>Empowering Businesses With Innovative Tech Expertise and Tailored Solutions for Success</p>
