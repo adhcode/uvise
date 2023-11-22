@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Featured = () => {
   return (
-     <div className='max-w-[1440px] h-[478px] mb-10 sm:flex sm:flex-col sm:max-w-[390px] sm:justify-center sm:items-center sm:mt-[150px] sm:mr-0 sm:h-[635px]'>
+     <div className='max-w-[1440px] h-[478px] mb-10 sm:flex sm:flex-col sm:max-w-[390px] sm:justify-center sm:items-center sm:mt-[50px] sm:mr-0 sm:h-[635px]'>
     <div className='text-center '>
     <h2 className='text-[32px] font-[600] text-[#2A2A2A]'>Blog Post</h2>
     <p className='text-[14px] font-[400] text-[#666] mb-[32px]'>Latest Post</p>
