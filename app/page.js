@@ -53,13 +53,13 @@ export default function Home() {
   return (
     <main className="">
       <div className={nunito.className}>
-        <div className=' bg-[#FFF] flex justify-between items-center mx-auto lg:px-0 px-32 pt-32 sm:pt-24 pb-32 lg:max-w-[976px] sm:w-[390px] sm:m-0 sm:flex-col sm:px-[24px] '>
-          <div className=' h-auto'>
-        <h2 className=" text-[#2A2A2A] text-[48px] font-[600]  leading-normal w-[435px] sm:w-[288px] sm:text-[32px] sm:h-[176px] sm:mb-2">Unleashing <br/> <span className='text-blue inline'>Business</span> <span className='inline-flex'>Potential:</span>Your Tech <span className='text-blue inline'>Solutions</span> Architect! </h2>
+      <div className=' bg-[#FFF] w-full flex justify-between items-center mx-auto lg:px-0  pt-32 sm:pt-24 pb-32  max-w-6xl sm:m-0 sm:flex-col'>
+          <div className='h-auto'>
+        <h2 className=" text-[#2A2A2A] text-[48px] font-[600]  leading-normal w-[435px] sm:w-[288px] sm:text-[32px] sm:h-[176px] sm:mb-2 overflow-x-visible">Unleashing <br/> <span className='text-blue inline'>Business</span> <span className='inline-flex'>Potential:</span>Your Tech <span className='text-blue inline'>Solutions</span> Architect! </h2>
         <p className='text-[24px] font-[400]  leading-normal text-[#666666] w-[527px] sm:w-[342px] sm:text-[15px] sm:mt-4 sm:mb-4'>Empowering Businesses With Innovative Tech Expertise and Tailored Solutions for Success</p>
         <div className={inter.className}>
         <div className='flex space-x-8 '>
-          <button className=" bg-white text-blue text-[14px] font-[600] leading-normal  hover:text-white border-[1px] w-[140px] h-[41px]  rounded-[8px]    border-white-500    hover:bg-blue mt-2 "> <Link href='/get-quote'>Contact Us</Link>
+          <button className="bg-white text-blue text-[14px] font-[600] leading-normal  hover:text-white border-[1px] w-[140px] h-[41px]  rounded-[8px]    border-white-500 hover:bg-blue mt-2 "><Link href='/get-quote'>Contact Us</Link>
           </button>
           <button className=" bg-blue text-white hover:bg-white text-[14px] font-[600] leading-normal hover:text-blue hover:border-blue border-[1px] w-[140px] h-[41px] rounded-[8px]  border-white-500 pr-[8px] pt-[4px] pl-[8px] pb-[4px]  mt-2 ">
             <Link href='/get-quote'>
@@ -69,20 +69,21 @@ export default function Home() {
           </div>
         </div>
       <div className='w-[604px] h-[440px] rounded-full bg-[#C0D2FB]  mt-3 flex items-center justify-center mb-3 lg:w-[504px]  sm:h-[254px]  sm:w-[350px]  lg:h-[340px] sm:mt-8 sm:mb-[-120px]'>
-      <div className='w-[500px] h-[499px] lg:w-[400px] lg:h-[399px] sm:w-[320px] sm:h-[320px] ' ref={animationContainer}> 
+      <div className='w-[500px] h-[499px] lg:w-[400px] lg:h-[399px] sm:w-[300px] sm:h-[300px]' ref={animationContainer}> 
       </div>
         </div>
         </div>
+
         </div>
 
         
         <div className= {nunito.className}>
-          <div className=' max-w-[1440px] flex flex-col  items-center justify-center bg-purple  mt-1  pb-20 h-[597px] sm:mt-[2px] sm:h-[1800px] sm:max-w-[390px] sm:justify-center sm:items-center  '>
-            <div className='mb-10 mt-10 '> 
-          <h2 className='text-[#2A2A2A] text-[32px] font-[600] w-[170px] ml-12 items-center justify-center sm:text-[24px] sm:justify-center sm:pt-32'>Our Service</h2>
-          <p className='text-[14px] font-[400]  leading-normal text-[#666666] w-[316px] sm:w-[213px] sm:text-center '>Service tailored to enhance your business growth</p>
+          <div className=' flex flex-col  items-center justify-center bg-purple  mt-1  pb-20 sm:pb-0 h-[597px] sm:mt-[0px] sm:h-[1620px]  sm:justify-center sm:items-center'>
+            <div className='mb-10 mt-10 sm:mt-0 '> 
+          <h2 className='text-[#2A2A2A] text-[32px] font-[600] w-[170px] ml-12 items-center justify-center sm:text-[24px] sm:justify-center sm:pt-0'>Our Service</h2>
+          <p className='text-[14px] font-[400]  leading-normal text-[#666666] w-[316px] sm:w-[213px] sm:text-center'>Service tailored to enhance your business growth</p>
           </div>
-          <div className='flex  space-x-8 sm:flex  sm:flex-wrap   sm:space-y-8 items-center justify-center   sm:w-[390px] sm:space-x-0 '>
+          <div className='flex  space-x-8 sm:flex  sm:flex-wrap sm:space-y-8 items-center justify-center  sm:space-x-0 '>
           <div className='bg-white w-[289px] mt-2 pl-[26px] pr-[25px] pt-[35px] pb-[34px] h-[342px] shadow rounded-[5px]'>
           <div className='bg-[#DC4BCD] rounded-[50%] w-[64px] h-[64px] flex items-center justify-center mt-2 p-2 '>
             <Image 
@@ -122,7 +123,7 @@ export default function Home() {
             <h2 className='mt-3 text-[#2A2A2A] text-[24px] font-[600] mb-1'>Cyber Security</h2>
             <p className='text-[14px] font-[400]  leading-normal text-[#666666] w-[238px]'>Safeguard your valuable assets and customer data with robust cybersecurity measures tailored to your specific industry.</p>
           </div>
-           <div className='bg-white mt-2  w-[289px] rounded-[5px] shadow pl-[26px] pr-[25px] pt-[35px] pb-[34px] h-[342px]'>
+           <div className='bg-white mt-2  w-[289px] rounded-[5px] shadow pl-[26px] pr-[25px] pt-[35px] pb-[34px] sm:pb-0 h-[342px]'>
           <div className='bg-[#CA4848] rounded-[50%] w-[64px] h-[64px] flex items-center justify-center mt-2 p-2 '>
             <Image 
             src={chart}
@@ -138,7 +139,7 @@ export default function Home() {
           </div>
           
           </div>
-      <div className='h-[674px] bg-blue max-w-[1440px] sm:mt-20 sm:flex sm:flex-col sm:max-w-[390px] sm: sm:h-[820px]  '>
+      <div className='h-[674px] bg-blue max-w-[1440px] sm:mt-8 sm:flex sm:flex-col  sm:h-[820px]  '>
         <div className='flex flex-row-reverse items-center justify-between sm:justify-center sm:items-center sm:flex-col'>
           <div className='pr-[133px] sm:pr-[30px] '>
           <h3 className='pl-20 text-[14px] mt-4 pt-2 text-white sm:pl-[20px] sm:mb-10'>About Us</h3>
@@ -160,12 +161,12 @@ export default function Home() {
         </div>
         
 
-        <div className='bg-white sm:max-w-[390px]'>
+        <div className='bg-white '>
         <div className='pl-20 pb-3 flex flex-col items-center mt-12 sm:items-start sm:pl-[20px] sm:mt-4 '>
           <h2 className='text-[#2A2A2A] text-[32px] font-[600] mt-3 sm:text-left sm:text-[24px]'>Why Choose Us</h2>
           <p className='mt-2 text-[#666666] text-[14px] w-[562px] text-center mb-4 sm:w-[348px] sm:text-left'>As a multifaceted digital solution agency, we produce beautifully crafted creative solutions that transcend business goals and garner recognition.</p>
         </div>
-        <div className='flex justify-between pl-[105px] pr-[105px] sm:flex-col sm:pl-0'>
+        <div className='flex justify-between pl-[105px] pr-[105px] sm:pr-0 sm:flex-col sm:pl-0'>
         <div className=' flex top-0 space-x-1 bg-purple w-[604px] h-[249px] pt-[35px]  sm:w-[390px] sm:h-[249px] sm:mb-4'>
           <div className='w-[64px] h-[64px] bg-[#0443E2] rounded-full flex items-center justify-center ml-8 sm:ml-6'>
             <Image 
@@ -176,7 +177,7 @@ export default function Home() {
             priority
             />
             </div>
-            <div className='flex space-x-4 sm:flex-col sm:items-start  '>
+            <div className='flex space-x-4 sm:flex-col sm:items-start'>
           <h2 className='text-[#2A2A2A] text-[24px] font-[600] pl-3 sm:text-left sm:pl-6 sm:mb-4'>Expert Team</h2>
           <p className=' text-[#666666] text-[14px] w-[297px] pl-3 h-[114px] sm:w-[265px] sm:pl-2'>Our team of tech enthusiasts comprises skilled engineers, developers, designers, and analysts, each bringing a unique perspective to the table. Together, we form a powerhouse of talent, always ready to tackle challenges head-on and craft innovative solutions.</p>
           </div>
@@ -228,8 +229,8 @@ export default function Home() {
             />
             </div>
             <div className='flex space-x-6 sm:flex-col sm:items-start'>
-          <h2 className='text-[#2A2A2A] w-[198px] h-[66px] text-[24px] font-[600] pl-1 sm:pl-6 sm:mb-4 '>Collaborative Partnership</h2>
-          <p className=' text-[#666666] text-[14px] w-[238px] pr-2 h-[133px] sm:w-[268px] sm:pl-0'>We believe in the power of collaboration. Working hand in hand with your team, we foster an environment of open communication and idea-sharing to ensure we are always aligned with your objectives.</p>
+          <h2 className='text-[#2A2A2A] w-[198px] h-[66px] text-[24px] font-[600] pl-1 sm:pl-6 sm:mb-0 '>Collaborative Partnership</h2>
+          <p className=' text-[#666666] text-[14px] w-[238px] pr-2 h-[133px] sm:w-[238px] sm:pl-0'>We believe in the power of collaboration. Working hand in hand with your team, we foster an environment of open communication and idea-sharing to ensure we are always aligned with your objectives.</p>
           </div>
           </div>
           
@@ -240,9 +241,9 @@ export default function Home() {
 
 
         <div className={nunito.className}>
-        <div className='h-[595px] bg-purple max-w-[1440px] mt-20 pt-12 sm:h-[1200px] sm:max-w-[390px]  '>
+        <div className='h-[595px] bg-purple max-w-[1440px] mt-20 sm:mt-4 pt-12 sm:pt-4 sm:h-[1200px] '>
           <div className='flex justify-center flex-col items-center mb-10'>
-        <h3 className='text-[32px] font-[600] sm:w-[187px] sm:text-center sm:text-[24px]  '>Meet the Minds behind Uvise</h3>
+        <h3 className='text-[32px] font-[600] sm:w-[187px] sm:text-center sm:text-[24px]'>Meet the Minds behind Uvise</h3>
         <p className='text-[14px] font-[400] sm:w-[255px] sm:text-center'>Meet the Team that is Revolutionizing the Business World
 </p>
 </div>
@@ -259,10 +260,10 @@ export default function Home() {
             />
        </div>
        <div className='flex flex-col items-center '>
-       <h2 className='pt-2'>Dhikrullah Adekunle</h2>
+       <h2 className='pt-2'>Olorode Dhikrullah</h2>
        <p className=''>CEO</p>
        </div>
-       <div className='flex justify-around space-x-[-70px]'>
+       <div className='flex justify-around space-x-[-90px]'>
 
         <a href='https://msng.link/o?adekunledh=ig'>
          <Image 
@@ -303,7 +304,7 @@ export default function Home() {
        <h2 className='pt-2'>Ayobami Daniel</h2>
        <p className=''>CTO</p>
        </div>
-       <div className='flex justify-around space-x-[-70px]'>
+       <div className='flex justify-around space-x-[-90px]'>
 
         <a href='https://msng.link/o?adekunledh=ig'>
          <Image 
@@ -342,7 +343,7 @@ export default function Home() {
        <h2 className='pt-2'>Rokeeb Abdul</h2>
        <p className=''>Product Designer</p>
        </div>
-       <div className='flex justify-around space-x-[-70px]'>
+       <div className='flex justify-around space-x-[-90px]'>
 
         <a href='https://msng.link/o?adekunledh=ig'>
          <Image 
@@ -435,7 +436,7 @@ export default function Home() {
        </div>
    </div>
         
-   </div>   
+   </div>  
    </div> 
 
   <Featured  / >
