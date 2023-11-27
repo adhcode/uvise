@@ -393,7 +393,7 @@ export default function Home() {
        </div>
        </div>
        <div className='pl-10 pr-10 mt-[24px]' >
-       <p className='w-[400px]'>Uvise played a pivotal role in revolutionizing our data gathering processes. Their innovative solutions and expertise significantly enhanced our ability to collect, analyze, and leverage data, empowering us to make more informed business decisions.</p>
+       <p className=''>Uvise played a pivotal role in revolutionizing our data gathering processes. Their innovative solutions and expertise significantly enhanced our ability to collect, analyze, and leverage data, empowering us to make more informed business decisions.</p>
        </div>
        
        
