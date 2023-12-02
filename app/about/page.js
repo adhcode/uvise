@@ -110,7 +110,7 @@ Together, let's take your business to into a transformational growth.</p>
        </div>
        <div className='flex flex-col items-center '>
        <h2 className='pt-2'>Olorode Dhikrullah</h2>
-       <p className=''>CEO</p>
+       <p className=''>General Manager</p>
        </div>
        <div className='flex justify-around space-x-[-70px]'>
 
