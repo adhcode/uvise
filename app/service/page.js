@@ -110,68 +110,10 @@ const page = () => {
   </div>
 
 </div>
-   <div className='h-[595px] bg-white max-w-[1440px] mt-20 pt-12 sm:w-full sm:h-[1062px] sm:flex sm:justify-center sm:flex-col sm:items-center sm:mt-5'>
-          <div className='flex justify-center flex-col items-center mb-10'>
-        <h3 className='text-[32px] font-[600] sm:text-[24px]'>Client Testimonial</h3>
-        <p className='text-[14px] font-[400]'>What people are saying about us
-</p>
-</div>
-<div className='flex  justify-around space-x-16 sm:flex-col sm:space-x-0 sm:space-y-4'>
-   <div className='w-[395px] bg-white h-[310px]   justify-around items-center rounded-[8px] border-blue border-[1px] sm:w-[350px] '>
-    <div className='flex flex-row  justify-evenly mt-10 ml-[-100px] space-x-[-120px]'>
-       <div className='w-[64px] h-[64px] rounded-full bg-[#D9D9D9]  '>
-         
-       </div>
-       <div className=''>
-        <h2 className='text-[24px]'>Wale Obalaja</h2>
-       <p className='pt-2'>Company Name</p>
-       </div>
-       </div>
-       <div className='pl-10 pr-10 mt-[24px]' >
-       <p className=''>Technology is constantly evolving, and so are we. Our passion for innovation drives us to stay ahead of the curve, adopting the latest tools and techniques to give you a competitive edge.</p>
-       </div>
-       
-       
-       
-       </div>
+
    
-   <div className='w-[395px] bg-white h-[310px] justify-around items-center rounded-[8px] border-blue border-[1px]  sm:w-[350px]'>
-    <div className='flex flex-row  justify-evenly mt-10 ml-[-100px] space-x-[-120px]'>
-       <div className='w-[64px] h-[64px] rounded-full bg-[#D9D9D9]  '>
-         
-       </div>
-       <div className=''>
-        <h2 className='text-[24px]'>Wale Obalaja</h2>
-       <p className='pt-2'>Company Name</p>
-       </div>
-       </div>
-       <div className='pl-10 pr-10 mt-[24px]' >
-       <p className=''>Technology is constantly evolving, and so are we. Our passion for innovation drives us to stay ahead of the curve, adopting the latest tools and techniques to give you a competitive edge.</p>
-       </div>
-       
-       
-       
-       </div>
-   <div className='w-[395px] bg-white h-[310px] justify-around items-center rounded-[8px] border-blue border-[1px] sm:w-[350px]'>
-    <div className='flex flex-row justify-evenly mt-10 ml-[-100px] space-x-[-120px]'>
-       <div className='w-[64px] h-[64px] rounded-full bg-[#D9D9D9]  '>
-         
-       </div>
-       <div className=''>
-        <h2 className='text-[24px]'>Wale Obalaja</h2>
-       <p className='pt-2'>Company Name</p>
-       </div>
-       </div>
-       <div className='pl-10 pr-10 mt-[24px]' >
-       <p className=''>Technology is constantly evolving, and so are we. Our passion for innovation drives us to stay ahead of the curve, adopting the latest tools and techniques to give you a competitive edge.</p>
-       </div>
-       
-       
-       
-       </div>
-   </div>
-        
-   </div>  
+  
+  
 
    <Featured  / >
 
